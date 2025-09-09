@@ -123,6 +123,25 @@ Each module includes a short video/reading and a hands-on lab.
     ├── branding/                            # slide templates, logos
     └── figures/
 ```
+## Getting started
+
+1. **Environment**
+   - Python 3.9–3.11 (recommended 3.10)
+   - Install deps (CPU-only):
+   ```bash
+   pip install -r requirements.txt
+   ```
+    - Optional GPU: install tensorflow/torch with CUDA per your platform.
+
+2. **Running notebooks**
+   - Local Jupyter or VS Code; or open in Colab (upload one module at a time).
+   - Keep kernels pinned (restarting erases variables).
+
+3. **Data**
+   - All labs use synthetic generators included in the repo; no large downloads required.
+   - A churn-like CSV may be provided by the instructor for Module 4.
+
+---
 
 ## Assessment & grading
 
