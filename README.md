@@ -80,7 +80,7 @@ Each module includes a short video/reading and a hands-on lab.
 ---
 
 ## Repository layout
-``
+```bash
 ├── README.md                        
 ├── requirements.txt                   # Python deps (CPU-friendly)
 ├── env/                               # environment & launcher helpers
@@ -122,7 +122,7 @@ Each module includes a short video/reading and a hands-on lab.
 └── assets/
     ├── branding/                            # slide templates, logos
     └── figures/
-``
+```
 
 ## Assessment & grading
 
